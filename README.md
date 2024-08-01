@@ -43,7 +43,8 @@ fonts = list_fonts(path)
 print(fonts)
 ```
 ## Additional Information
-- For our purposes, copy and paste the text into Word and use find and replace on '\n' to replace all occurrences with a paragraph mark (^p)
+- For our purposes, copy and paste the text into Word and use find and replace on '\n' to replace all occurrences with a paragraph mark (^p).
+- If running in Pycharm, you will likely have to go to 'Help', 'Edit Custom Properties...', and put 'idea.cycle.buffer.size=8192' into the idea.properties file. This ensures handling of larger pdf files; can adjust the size as needed.
 - The script uses an extended word list to ensure proper processing of hyphenated words; add to this list as needed.
 - Specific words/acronyms can be maintained to avoid unintended removals.
 - The project can be extended by adding more patterns and words to the existing lists and dictionaries.
