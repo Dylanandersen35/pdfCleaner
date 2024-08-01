@@ -28,7 +28,7 @@ Place your PDF file in the data directory.
 
 #### 2. Run the Text Processing:
 
-`from your_script import load_pdf`
+`from main.py import load_pdf`
 
 `directory = "./data"`
 
@@ -39,7 +39,7 @@ Place your PDF file in the data directory.
 #### 3. List Fonts (Optional):
 To list all fonts used in a PDF file:
 
-`from your_script import list_fonts`
+`from main.py import list_fonts`
 
 `path = 'data/your_pdf_file.pdf'`
 
