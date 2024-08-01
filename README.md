@@ -13,40 +13,35 @@ This project is focused on extracting and cleaning text from PDF files using the
 
 ## Setup
 #### 1. Clone the repository:
-
-`git clone <repository-url>`
-
-`cd <repository-directory>`
-
+```
+git clone <repository-url>
+cd <repository-directory>
+```
 #### 2. Install the required libraries:
-
-`pip install -r requirements.txt`
-
+```
+pip install -r requirements.txt
+```
 ## Usage
 #### 1. Prepare the Data Directory:
 Place your PDF file in the data directory.
 
 #### 2. Run the Text Processing:
+```
+from main.py import load_pdf
 
-`from main.py import load_pdf`
-
-`directory = "./data"`
-
-`documents = load_pdf(directory)`
-
-`print(documents)`
-
+directory = "./data"
+documents = load_pdf(directory)
+print(documents)
+```
 #### 3. List Fonts (Optional):
 To list all fonts used in a PDF file:
+```
+from main.py import list_fonts
 
-`from main.py import list_fonts`
-
-`path = 'data/your_pdf_file.pdf'`
-
-`fonts = list_fonts(path)`
-
-`print(fonts)`
-
+path = 'data/your_pdf_file.pdf'
+fonts = list_fonts(path)
+print(fonts)
+```
 ## Additional Information
 - For our purposes, copy and paste the text into Word and use find and replace on '\n' to replace all occurrences with a paragraph mark (^p)
 - The script uses an extended word list to ensure proper processing of hyphenated words; add to this list as needed.
