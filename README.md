@@ -24,7 +24,7 @@ This project is focused on extracting and cleaning text from PDF files using the
 
 ## Usage
 #### 1. Prepare the Data Directory:
-Place your PDF files in the data directory.
+Place your PDF file in the data directory.
 
 #### 2. Run the Text Processing:
 
