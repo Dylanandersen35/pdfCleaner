@@ -48,6 +48,7 @@ To list all fonts used in a PDF file:
 `print(fonts)`
 
 ## Additional Information
+- For our purposes, copy and paste the text into Word and use find and replace on '\n' to replace all occurences with a paragraph mark (^p)
 - The script uses an extended word list to ensure proper processing of hyphenated words; add to this list as needed.
 - Specific words/acronyms can be maintained to avoid unintended removals.
 - The project can be extended by adding more patterns and words to the existing lists and dictionaries.
