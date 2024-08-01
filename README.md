@@ -20,7 +20,7 @@ This project is focused on extracting and cleaning text from PDF files using the
 
 #### 2. Install the required libraries:
 
-`pip install pdfplumber nltk`
+`pip install -r requirements.txt`
 
 ## Usage
 #### 1. Prepare the Data Directory:
